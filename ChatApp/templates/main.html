@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+main
+{% endblock title %}
+
+{% block content %}
+
+<div id="alert-box"></div>
+<div id="messages-box"></div>
+ 
+<input typ="test" id="message-input" class ="form-control" placeholder="Your message">
+<button class="btn btn-primary mt-2" id="send-btn">Send</button>
+
+{% endblock content %}
+
+
+
+
+{% block scripts %}
+ <script src="{% static 'main.js' %}"></script>
+{% endblock scripts %} 

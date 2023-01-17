@@ -1,0 +1,3 @@
+python manage.py runserver == python
+
+npx nodemon server.js == js server start
